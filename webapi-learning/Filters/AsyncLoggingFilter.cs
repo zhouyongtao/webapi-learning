@@ -12,6 +12,14 @@ namespace webapi_learning.Filters
 {
     public class AsyncLoggingFilter : ActionFilterAttribute
     {
+
+
+        /*
+       	This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, 
+        or 'await Task.Run(...)' to do CPU-bound work on a background thread.	
+       */
+
+
         /// <summary>
         /// 异步记录请求的日志
         /// </summary>
