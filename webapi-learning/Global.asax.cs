@@ -12,7 +12,7 @@ namespace webapi_learning
     public class WebApiApplication : System.Web.HttpApplication
     {
         protected void Application_Start()
-        {
+        { 
             //add jsonp
             GlobalConfiguration.Configuration.AddJsonpFormatter();
 
